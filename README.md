@@ -1,10 +1,10 @@
-Open City Blog
+# Open City Blog
 
 Overview
 
 Open City Blog is a full-stack web application designed to manage and publish blog posts. The project is built with a FastAPI backend and a React frontend, with support for image uploads and CRUD operations on blog posts.
 
-Project Structure
+## Project Structure
 ```
 app/
 ├── backend/
@@ -31,7 +31,7 @@ app/
     │   ├── index.js        # ReactDOM entry point
     └── package.json        # Frontend dependencies
 ```
-Features
+### Features
 
 	•	FastAPI Backend: A fast and asynchronous backend powered by FastAPI, handling blog posts with full CRUD operations.
 	•	React Frontend: A responsive React.js frontend, allowing users to view, create, and delete blog posts.
@@ -39,21 +39,21 @@ Features
 	•	Progressive Web App (PWA): The frontend supports PWA features, including installation on mobile and desktop devices.
 	•	Post Management: Create, Read, and Delete posts functionality.
 
-Tech Stack
+### Tech Stack
 
 	•	Backend: FastAPI, SQLAlchemy, Pydantic
 	•	Frontend: React, JavaScript
 	•	Database: SQLite (or any SQLAlchemy-supported DB)
 	•	Hosting: Localhost (can be configured for cloud deployment)
 
-Getting Started
-
+### Getting Started
+ 
 Prerequisites
 
 	•	Python 3.x
 	•	Node.js and npm (for frontend)
 
-Backend Setup
+## Backend Setup
 
 1.	Navigate to the backend directory:
 ```
@@ -77,7 +77,7 @@ uvicorn main:app --reload
 ```
 This starts the backend server at http://localhost:8000.
 
-Frontend Setup
+## Frontend Setup
 
 1.	Navigate to the frontend directory:
 ```
@@ -95,7 +95,7 @@ npm start
 ```
 This starts the frontend at http://localhost:3000.
 
-API Endpoints
+## API Endpoints
 
 	•	GET /post/all: Fetch all posts.
 	•	POST /post: Create a new post.
@@ -108,7 +108,7 @@ Creating Posts
 	2.	Use the “Create Post” form to submit a new post with an optional image.
 	3.	Posts will be displayed in reverse chronological order.
 
-Available Scripts (Frontend)
+## Available Scripts (Frontend)
 
 In the frontend/ directory, you can run:
 
